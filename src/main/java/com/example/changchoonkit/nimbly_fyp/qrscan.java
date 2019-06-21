@@ -1,4 +1,4 @@
-package com.example.changchoonkit.myapplication;
+package com.example.changchoonkit.nimbly_fyp;
 
 import android.content.Intent;
 import android.os.Bundle;

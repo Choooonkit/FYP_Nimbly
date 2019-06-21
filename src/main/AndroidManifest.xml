@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.changchoonkit.myapplication">
+    package="com.example.changchoonkit.nimbly_fyp">
 
-    <uses-permission android:name="android.permission.CAMERA"></uses-permission>
-    <uses-permission android:name="android.permission.VIBRATE"></uses-permission>
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.VIBRATE" />
 
     <!-- To auto-complete the email text field in the login form with the user's emails -->
     <uses-permission android:name="android.permission.GET_ACCOUNTS" />
@@ -33,7 +33,7 @@
             android:theme="@style/AppTheme">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.changchoonkit.myapplication.MainActivity" />
+                android:value="com.example.changchoonkit.nimbly_fyp.MainActivity" />
         </activity>
         <activity
             android:name=".recentActivities"
@@ -42,16 +42,7 @@
             android:theme="@style/AppTheme">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.changchoonkit.myapplication.MainActivity" />
-        </activity>
-        <activity
-            android:name=".cert"
-            android:label="@string/title_activity_cert"
-            android:parentActivityName=".MainActivity"
-            android:theme="@style/AppTheme">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.changchoonkit.myapplication.MainActivity" />
+                android:value="com.example.changchoonkit.nimbly_fyp.MainActivity" />
         </activity>
         <activity
             android:name=".qrscan"
@@ -60,14 +51,16 @@
             android:theme="@style/AppTheme">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.changchoonkit.myapplication.MainActivity" />
+                android:value="com.example.changchoonkit.nimbly_fyp.MainActivity" />
         </activity>
-        <activity android:name=".scanNow"></activity>
+        <activity android:name=".scanNow" />
 
         <meta-data
             android:name="com.google.android.gms.vision.DEPENDENCIES"
-            android:value="barcode"></meta-data>
+            android:value="barcode" />
 
+        <activity android:name=".Profile" />
+        <activity android:name=".CertPage"></activity>
     </application>
 
 </manifest>

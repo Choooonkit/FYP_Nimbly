@@ -1,4 +1,4 @@
-package com.example.changchoonkit.myapplication;
+package com.example.changchoonkit.nimbly_fyp;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

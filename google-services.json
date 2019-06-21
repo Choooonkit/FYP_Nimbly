@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "879663245327",
+    "firebase_url": "https://nimbly-auth.firebaseio.com",
+    "project_id": "nimbly-auth",
+    "storage_bucket": "nimbly-auth.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:879663245327:android:fd0ee2819103ecaa",
+        "android_client_info": {
+          "package_name": "com.example.changchoonkit.nimbly_fyp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "879663245327-f0ajgp1o15p49nf927v2q0rag587d7p6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2pdvmtm_ToyjzuJlfqmEQTsT-d8SeSw0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "879663245327-f0ajgp1o15p49nf927v2q0rag587d7p6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

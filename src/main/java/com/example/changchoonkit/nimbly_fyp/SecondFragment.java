@@ -1,4 +1,4 @@
-package com.example.changchoonkit.myapplication;
+package com.example.changchoonkit.nimbly_fyp;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -27,7 +27,7 @@ public class SecondFragment extends Fragment {
         button_cert.setOnClickListener( new View.OnClickListener(){
             @Override
             public void onClick(View v){
-                Intent in_cert = new Intent(getActivity(), cert.class);
+                Intent in_cert = new Intent(getActivity(), CertPage.class);
                 startActivity(in_cert);
             }
         });

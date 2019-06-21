@@ -1,4 +1,4 @@
-package com.example.changchoonkit.myapplication;
+package com.example.changchoonkit.nimbly_fyp;
 
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
